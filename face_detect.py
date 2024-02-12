@@ -1,7 +1,11 @@
 import cv2
 
+# Source:
+# How to Detect Objects in Real-Time Using OpenCV and Python
+# https://towardsdatascience.com/how-to-detect-objects-in-real-time-using-opencv-and-python-c1ba0c2c69c0
+
 # Enable camera
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0) #0th index, correct but must be accessible via dev/ folder
 cap.set(3, 640)
 cap.set(4, 420)
 
